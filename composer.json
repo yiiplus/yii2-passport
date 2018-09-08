@@ -1,0 +1,38 @@
+{
+    "name": "yiiplus/yii2-passport",
+    "description": "",
+    "keywords": ["yii", "passport", "user", "login", "register"],
+    "homepage": "https://github.com/yiiplus/",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiiplus/yii2-passport/issues",
+        "source": "https://github.com/yiiplus/yii2-passport"
+    },
+    "authors": [
+        {
+            "name": "Hongbin Chen",
+            "email": "87003637@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "^2.0.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "^2.0.0",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiiplus\\passport\\": ""
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "http://packagist.yiiplus.com"
+        }
+    }
+}
